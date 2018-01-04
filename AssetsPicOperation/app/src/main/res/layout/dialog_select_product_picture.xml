@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    description: 选择图片对话框
+         author: mhwang
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              style="@style/dialog">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"
+        android:text="请选择一张图片"/>
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:numColumns="auto_fit"
+        android:columnWidth="250px"
+        android:verticalSpacing="10px"
+        android:horizontalSpacing="10px"
+        android:stretchMode="columnWidth"
+        android:id="@+id/gv_productPic"/>
+
+</LinearLayout>
