@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--<style name="mydialog" parent="@android:style/Theme.Dialog">
+        <item name="windowBackground">@color/transparent</item>
+        <item name="colorBackgroundCacheHint">@null</item>
+        <item name="windowIsTranslucent">true</item>
+        &lt;!&ndash; Note that we use the base animation style here (that is no
+             animations) because we really have no idea how this kind of
+             activity will be used. &ndash;&gt;
+        <item name="windowAnimationStyle">@style/Animation</item>
+    </style>-->
+
+</resources>
