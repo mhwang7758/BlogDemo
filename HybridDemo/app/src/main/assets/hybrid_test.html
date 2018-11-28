@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">          <!--添加编码格式，否则安卓端调用时传递中文参数会可能乱码-->
+	<title>Hybrid开发测试</title>
+</head>
+<body>
+	<h1>网页端</h1>
+	<br />
+	<button id="btn_callNativeAdd" onclick="onAddClick(this)">调用本地加法运算并显示</button>
+	<br />
+	<div id="div_showTextFromNative"></div>
+
+	<!--javascript代码-->
+	<script type="text/javascript">
+		// 调用android端提供的参数
+		// MyJS为Android端使用addJavascriptInterface方法时注入的调用本地方法类名称
+		function onAddClick(e){
+			var result = MyJS.add(3, 5);
+			MyJS.showToast('3 + 5 = '+result);
+		};
+		
+
+		// 提供android端调用的造句方法
+		function makeSentence(word1, word2){
+			var div_showTextFromNative = document.getElementById("div_showTextFromNative");
+			div_showTextFromNative.innerHTML = '你'+word1 + ',他'+word2;
+		};
+
+		// 提供android端相加的方法
+		function add(a, b){
+			var div_showTextFromNative = document.getElementById("div_showTextFromNative");
+			var result = a + b;
+			div_showTextFromNative.innerHTML = 'a + b = ' + result;
+		}
+
+		
+	</script>
+</body>
+</html>
