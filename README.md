@@ -1,5 +1,5 @@
 # BlogDemo
-the demo of the blog mention
+the demo of the csdn blog mention(CSDN博客文章提及的demo)
 
 ## AssetsPicOperation            CSDN博客介绍
 [1801_Android使用assets实现内置图片选择](http://blog.csdn.net/u013564742/article/details/78974998)
@@ -18,5 +18,8 @@ the demo of the blog mention
 
 ## AppPullUp                      CSDN博客介绍
 [1820_Android app添加后台拉起机制](https://blog.csdn.net/u013564742/article/details/83793643)
+
+## HybridDemo                     CSDN博客介绍
+[1821_Android Hybrid混合开发](https://blog.csdn.net/u013564742/article/details/84590934)
 
 上面顺序不连续是因为这里只介绍Android相关的demo，其他的没记录上传，但是博客已经写有了的。
