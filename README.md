@@ -28,4 +28,7 @@ the demo of the csdn blog mention(CSDN博客文章提及的demo)
 ## ModuleDemo                     CSDN博客介绍
 [1910_Android Studio将jni代码模块化](https://blog.csdn.net/u013564742/article/details/88363288)
 
+## WxPayDemo                      CSDN博客介绍
+[1912_Android 微信支付签名算法java实现](https://blog.csdn.net/u013564742/article/details/88648885)
+
 上面顺序不连续是因为这里只介绍Android相关的demo，其他的没记录上传，但是博客已经写有了的。
